@@ -41,7 +41,7 @@ void SearchElemIndexMatrix(int[,] matrix, int rows, int colums)
 {
 
     if (rows < 0 || colums < 0)
-        Console.WriteLine("Вы ввели неверную позицию");
+        Console.WriteLine("Ошибка");
 
     if (rows < matrix.GetLength(0) && colums < matrix.GetLength(1))
     {
